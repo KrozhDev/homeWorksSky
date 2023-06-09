@@ -23,15 +23,9 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
 
+        for (Vehicle vehicle : vehicles) {
+            station.check(vehicle);
+        }
 
-        for (Car car : cars) {
-            station.check(car);
-        }
-        for (Bicycle bicycle : bicycles) {
-            station.check(bicycle);
-        }
-        for (Truck truck : trucks) {
-            station.check(truck);
-        }
     }
 }

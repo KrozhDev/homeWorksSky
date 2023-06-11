@@ -6,7 +6,7 @@ public class Car extends Bicycle{
         super(modelName, wheelsCount);
     }
 
-    public void checkEngine() {
+    private void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
 
@@ -18,5 +18,8 @@ public class Car extends Bicycle{
         }
         this.checkEngine();
     }
+
+
+
 
 }
